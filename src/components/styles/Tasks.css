@@ -56,9 +56,11 @@
   align-items: center;
   gap: 8px; 
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .member-name-tag{
+  display: inline-block;
   color: #213547;
 }
 
