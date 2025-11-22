@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+  .task-manager-app {
+    max-width: 100%; 
+    margin: 0; 
+    border-radius: 0; 
+    min-height: 100vh;
+    box-shadow: none; 
+  }
+
+  .app-main {
+    padding: 20px 15px;
+  }
+
+  .task-card {
+    padding: 15px 15px 15px 15px; 
+    padding-top: 30px; 
+    max-width: 100%; 
+  }
+  
+  .task-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .task-members {
+    flex-wrap: wrap;
+    margin-bottom: 15px; 
+  }
+  
+  .confirm-modal {
+    max-width: 90%; 
+    padding: 20px;
+  }
+  
+  .modal-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .modal-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .app-header h1 {
+    font-size: 20px; 
+  }
+  
+  .app-main {
+    padding: 15px 10px; 
+  }
+  
+  .form-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .submit-task-button,
+  .cancel-task-button {
+    width: 100%;
+  }
+
+  .member-name-tag {
+    padding: 3px 8px;
+    font-size: 11px;
+    white-space: normal; 
+  }
+}

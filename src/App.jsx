@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
 import './App.css'; 
+import './components/styles/responsive.css';
 
 function App() {
   const exampleMembers = [
